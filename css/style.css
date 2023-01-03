@@ -1,0 +1,268 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+body{font-family: 'Noto Sans KR', sans-serif; font-size: 19px;
+
+overflow-x: hidden;}
+
+
+
+
+/* main */
+
+
+
+.main{width: 100%;  height:100%;
+    /* height: 1100px;  */
+    position: relative;}
+.main video{width: 100%; display: block; }
+
+.main_inner{width: 1320px; 
+    height: 700px; 
+    margin: 0px auto; 
+     position:absolute; top:30px; left:50%; margin-left:-660px;
+    }
+
+
+
+.text1{position: absolute; top: 280px; left: 0;  } 
+
+
+.text2{font-size: 22px; color: #283023; padding-top: 20px;}
+.text3{font-family: 'Montserrat', sans-serif; font-size: 22px; font-weight: 500;color: #283023; padding-top: 53px; width: 200px;} 
+
+.vcr{float: right; }
+
+@keyframes logo2 {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.logo2{animation: logo2 10s linear infinite; 
+    position: absolute; 
+   top:99%;
+     right: 1%;
+
+     z-index: 99;
+    
+    }
+
+
+@keyframes summerlogo {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.summerlogo{animation: logo2 10s linear infinite; position: absolute; bottom: 50px; right: -130px;}
+.button{margin-top: 20px;}
+
+
+/* top */
+.nav{width: 100%; padding-top: 20px;}
+.nav_inner{width: 1320px; margin: 0 auto; height: 80px;  height: 70px; }
+.link{width: 1320px;
+height: 60px; background-color: rgba(255, 255, 255, 0.2); }
+.link li{float: left;}
+.link li a{display: block; padding: 14px 81px; font-family: 'Montserrat', sans-serif; font-size: 25px; color: #7b9591; font-weight:500;}
+.link li a:hover{color: #b8cb9d; }
+
+.link li:nth-child(3){margin-top: -12px;}
+
+
+    
+
+
+/* .bestseller */
+
+
+.bestseller{width: 100%;}
+.bestseller_inner{width: 1320px; 
+    height:1000px; margin: 0px auto;
+     /* position: relative;  */
+     text-align: center; padding-top: 150px;}
+
+
+
+.best{/* position: absolute; top: 48px; left: 50%; margin-left: -137px; */
+
+}
+
+
+.link2{margin-top:120px; 
+    /* padding-left: 27px; */
+}
+
+.link2 li{float: left;  overflow: hidden; 
+    width:322px; 
+
+    border-radius: 156px 156px 0px 0px; 
+    /* margin: 0 50px; */
+    margin:0 59px;
+}
+
+.link2 li:nth-child(2){margin-top: -165px ;}
+
+.caption{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0); color: rgba(255 , 255, 255, 0) ;
+    text-align: center;
+  transition: all 1s;  padding-top: 75%;}
+
+.imgimg{width: 320px; height: 520px; 
+    overflow: hidden; position: relative;}
+.imgimg:hover .caption{
+    background: rgba(0, 0, 0, 0.5) ; 
+    color: rgba(255, 255, 255, 1);}
+.text4{font-family: 'Darker Grotesque', sans-serif
+; font-size: 30px; margin-top: 40px; text-align: left;} 
+.green{margin-top: 20px; font-family: 'Darker Grotesque', sans-serif; color: #075233; font-size: 27px; font-weight: bold; text-align: left;}
+h3{font-family: 'Montserrat', sans-serif; font-weight: 500;}
+
+
+
+
+.event_text{width:100%; text-align: center; height:90px;}
+/* event */
+
+.event{ width: 100%; background: url(../images/bg.png) no-repeat center top;
+      height:440px; background-size: cover; margin-bottom:150px;
+    overflow: hidden;
+}
+
+.event_inner{width: 1320px;   position:relative; margin: 50px auto; }
+/* .eventlogo{position: absolute; top: -95px; left: 50%; margin-left: -72px;} */
+.bg1text{float: left; 
+    /* margin-top: 90px; */
+}
+.event1{float: left; margin:0 0 0 60px}
+.text5{font-family: 'Montserrat', sans-serif;  font-size: 27px; margin-bottom: 40px;}
+.text6{ color: #0e4b0b; margin-bottom: 40px; letter-spacing: -3px; word-spacing: 5px;}
+.text7{color: #fff;  line-height: 32px; margin-bottom: 20px; font-weight: lighter;}
+.text8{color: #e4d2bb;letter-spacing: -3px; font-weight: lighter;font-size: 16px; }
+
+.bg2text{float: left; margin:0px 0 0 166px;/*수정*/ }
+.event2{float: left;  box-sizing: border-box; margin: 0 0 0 54px;}
+.text9{font-family: 'Montserrat', sans-serif;  font-size: 27px; margin-bottom: 40px; color: #554545;}
+.text10{color: #9a610e; letter-spacing: -3px; margin-bottom: 40px; word-spacing: 5px;}
+.text11{color: #68420e; letter-spacing: -3px;  
+    font-weight:lighter;font-size: 16px;}
+
+/* summerline */
+.summerline{width: 100%;}
+.summerline_inner{width: 1320px; height: 700px; background: url(../images/summerbg.png) no-repeat; margin: 0 auto; position: relative;}
+.summerl{padding: 80px 0 0 80px; float: left; width: 670px;/*수정*/ box-sizing:border-box;}
+
+.text12{margin: 42px 0 42px 0; color: #bed2a2;}
+.summerr{float: left; width: 650px; padding-top: 170px;}
+.text13{font-family: 'Darker Grotesque', sans-serif
+    ; font-size: 23px; padding-top: 80px;} 
+.text14{font-family: 'Darker Grotesque', sans-serif
+    ; color: #fff; margin-top: 10px; font-weight: 500;}
+.handwash{margin-left: -10px;}
+.summernav li{float: left;margin-right: 77px;}
+.summernav li:nth-child(2){margin-left: 35px;}
+
+.handcream{margin-top: 17px;}
+.bathbomb{margin-top: 167px;}
+.summerlogo{position: absolute; top: 13px; right: 20px;}
+
+
+/* star ani 내일하기*/
+/* .starbox{width: 1320px; height: 600px; position: relative;} */
+
+.star{width:5px;
+    height:5px;
+    background:#fff;
+    border-radius:50%;}
+    .star:nth-child(1){
+        position:absolute;
+        top:100px;
+        left:500px;
+        animation:star 1s infinite;
+        box-shadow:1px 1px 10px rgba(255, 255, 255, 0.8), -1px -1px 10px rgba(255, 255, 255, 0.8);
+    }
+    .star:nth-child(2){
+        position:absolute;
+        top:514px;
+       left:246px;
+        animation:star 1s infinite 0.5s; 
+    }
+
+    .star:nth-child(3){
+        position:absolute;
+        top:362px;
+        left:538px;
+        animation:star 1s infinite 0.5s; 
+    }
+
+    .star:nth-child(4){
+        position:absolute;
+        top:241px;
+        left:363px;
+        animation:star 1s infinite 0.5s; 
+    }
+
+    .star:nth-child(5){
+        position:absolute;
+        top:198px;
+        left:147px;
+        animation:star 1s infinite 0.5s; 
+    }
+    .star:nth-child(6){
+        position:absolute;
+        top:241px;
+        left:363px;
+        animation:star 1s infinite 0.5s; 
+    }
+    
+    @keyframes star{
+        0%{opacity:1;}
+        100%{opacity:0;}
+    }
+
+
+/* insta */
+.insta{width: 100%;}
+.insta_inner{width: 1320px; height: 600px; margin:0 auto; position: relative;}
+.instalogo{position: absolute; top: 0; left: 50%; margin-left: -65px; }
+.sns li{float:left; width:200px; height:200px;margin:0 20px 20px 0; overflow: hidden;}
+.sns li:nth-child(6){margin-right:0;}
+.sns li:nth-child(12){margin-right:0;}
+.sns li:hover img{transform: scale(1.2,1.2); transition: all 1s;}
+.sns{padding-top: 100px;}
+
+
+/* footer */
+.footer{width: 100%; background-color: #e5d8c5;}
+.footer_inner{width: 1320px; height: 250px; margin: 0 auto; padding-top: 85px;}
+
+.footerul{ float: right;}
+.footerul>li{float: left; }
+.footerul>li>{display: block; padding: 10px 65px; box-sizing: border-box; font-family: 'Darker Grotesque'; font-size: 20px; font-weight: bold; }
+.footerul>li:nth-child(3) a {padding: 12px 0 0 0; }
+
+.footterfooter1{background: url(../images/line1.png) no-repeat 0% 3%; font-family: 'Darker Grotesque'; font-size: 20px;font-weight: bold;
+padding-right: 50px; }
+.footterfooter2{background: url(../images/line2.png) no-repeat 0% 4%;
+    font-family: 'Darker Grotesque'; font-size: 20px;font-weight: bold;}
+.footterfooter3{background: url(../images/line3.png) no-repeat 120% 4%;
+    font-family: 'Darker Grotesque'; font-size: 20px;font-weight: bold;}
+.footerbox{width: 500px; padding-top: 20px; float: left;}
+.footerboxtext{font-size: 15px; padding-top: 30px;}
+
+
+.footerul2{font-size: 15px; padding-top: 20px; }
+.footerul2 li {display: block; padding: 0px 20px 12px 0;}
+.dark{font-family: 'Darker Grotesque', sans-serif
+    ;}
+
+
+.footerul3{font-size: 13px;  padding-top: 20px; }
+
+.footerul3 li {display: block; padding: 0 0 12px 0px; font-weight: lighter;}
+
+
+.footerul4{margin-left: 64px;  padding-top: 20px;  }
+.footerul4 li {display: block; font-family: 'Darker Grotesque', sans-serif
+    ; font-size: 15px; text-align: right; padding:0 0 12px 0;}
+
+.footterfooter3{text-align: right;}
+
+

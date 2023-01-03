@@ -1,0 +1,26 @@
+
+.summerline_inner{position:relative;}
+
+.star{width:5px;
+height:5px;
+background:#fff;
+border-radius:50%;}
+
+.star:nth-child(1){
+	position:absolute;
+	top:50%;
+	left:0;
+	animation:star 1s infinite;
+	box-shadow:1px 1px 10px rgba(255, 255, 255, 0.8), -1px -1px 10px rgba(255, 255, 255, 0.8);
+}
+.star:nth-child(2){
+	position:absolute;
+	top:300px;
+	right:300px;
+	animation:star 1s infinite 0.5s; 
+}
+
+@keyframes star{
+	0%{opacity:1;}
+	100%{opacity:0;}
+}
